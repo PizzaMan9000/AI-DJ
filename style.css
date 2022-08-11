@@ -1,0 +1,58 @@
+body {
+    background-size: cover;
+    margin: 0px;
+    padding: 0;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.header {
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#note {
+    color: red;
+    font-weight: bold;
+}
+
+.divSpeed {
+    float: left;
+}
+
+.div_speed_image
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+.divVolume {
+    float: right;
+}
+
+.div_volume_image {
+    width: 200px;
+    border-radius: 100px;
+}
+
+canvas {
+    border: solid white 3px;
+    border-radius: 10px;
+    animation-name: colors;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+    from,to{box-shadow: 0px 0px 50px blue}
+    10% {box-shadow: 0px 0px 50px darkblue}
+    20% {box-shadow: 0px 0px 50px darkcyan}
+    30% {box-shadow: 0px 0px 50px 0px cyan}
+}
+
+.play_song {
+    padding: 10px;
+    font-size: 23px;
+    box-shadow: 5px 5px 13px lightgreen;
+}
